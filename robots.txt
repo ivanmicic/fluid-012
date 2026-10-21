@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Kada sajt dobije domen, odkomentarišite red i zamenite SITE_DOMAIN
+# (https://vas-domen.rs — bez kose crte na kraju). Istu zamenu uradite u sitemap.xml.
+# Sitemap: https://SITE_DOMAIN/sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "name": "Fluid 012 — servis gasnih kotlova",
+  "short_name": "Fluid 012",
+  "description": "Ugradnja, održavanje i servis gasnih i elektro kotlova u Požarevcu.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#f6f1e8",
+  "theme_color": "#101411",
+  "lang": "sr",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
