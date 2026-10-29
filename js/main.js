@@ -7,6 +7,36 @@
 
   if (year) year.textContent = String(new Date().getFullYear());
 
+  var form = document.querySelector("[data-whatsapp]");
+  if (form) {
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var phone = "381603005900";
+      var english = document.documentElement.lang === "en";
+      var marka = form.querySelector("[name=marka]").value;
+      var opis = form.querySelector("[name=opis]").value.trim();
+      var adresa = form.querySelector("[name=adresa]").value.trim();
+      var klijent = form.querySelector("[name=klijent]").value.trim();
+      var message = english
+        ? "🛠️ *NEW FAULT REPORT — FLUID 012*\n\n" +
+          "• *Boiler:* " + marka + "\n" +
+          "• *Problem / fault code:* " + opis + "\n" +
+          "• *Address:* " + adresa + "\n" +
+          "• *Customer:* " + klijent + "\n\n" +
+          "_(Sent from the Fluid 012 website)_"
+        : "🛠️ *NOVA PRIJAVA KVARA — FLUID 012*\n\n" +
+          "• *Marka kotla:* " + marka + "\n" +
+          "• *Opis / Kod greške:* " + opis + "\n" +
+          "• *Adresa:* " + adresa + "\n" +
+          "• *Klijent:* " + klijent + "\n\n" +
+          "_(Šaljem sa sajta Fluid 012)_";
+      var url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+      var opened = window.open(url, "_blank");
+      if (opened) opened.opener = null;
+      else location.assign(url);
+    });
+  }
+
   function onScroll() {
     if (!header || lockSolid) return;
     header.classList.toggle("is-solid", window.scrollY > 12);
