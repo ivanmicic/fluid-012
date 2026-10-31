@@ -38,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,560;0,9..144,640;1,9..144,560&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=13">
+  <link rel="stylesheet" href="css/styles.css?v=29">
   <script type="application/ld+json" id="ld">
   {
     "@context": "https://schema.org",
@@ -232,12 +232,13 @@
       <span aria-hidden="true"></span>
     </button>
     <nav class="site-nav" id="nav" data-nav aria-label="Glavno">
-      <a href="#usluge">Usluge</a>
-      <a href="#redovan-servis">Servis</a>
-      <a href="#brendovi">Brendovi</a>
-      <a href="#o-nama">O nama</a>
+      <a href="#brza-dijagnostika">Saveti</a>
       <a href="#prijava-kvara">Prijava</a>
+      <a href="#brendovi">Brendovi</a>
+      <a href="#usluge">Usluge</a>
+      <a href="#o-nama">O nama</a>
       <a href="#kontakt">Kontakt</a>
+      <a href="#redovan-servis">Servis</a>
       <span class="lang">
         <a href="index.html" hreflang="sr" lang="sr" aria-current="page">SR</a>
         <a href="en/index.html" hreflang="en" lang="en">EN</a>
@@ -432,107 +433,6 @@
       </div>
     </section>
 
-    <section class="section services" id="usluge" aria-labelledby="usluge-naslov">
-      <p class="watermark" aria-hidden="true">012</p>
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Usluge</p>
-            <h2 id="usluge-naslov">Ugradnja, održavanje i servis</h2>
-          </div>
-          <p>Delatnost radnje je instalacija i servisiranje grejnih sistema, gasnih i elektro kotlova. Termin se dogovara telefonom.</p>
-        </div>
-        <ol class="service-list">
-          <li>
-            <article class="service">
-              <span class="service__n">01</span>
-              <div>
-                <h3>Ugradnja grejnih sistema</h3>
-                <p>Postavljamo gasne i elektro kotlove i povezujemo ih na kućnu instalaciju. Dogovaramo izlazak, pripremamo priključke i puštamo uređaj u rad.</p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="service">
-              <span class="service__n">02</span>
-              <div>
-                <h3>Servis gasnih kotlova</h3>
-                <p>Kada kotao ne greje, gubi pritisak ili javlja grešku, pregledamo ga, čistimo, podešavamo i menjamo deo kada je to potrebno. Ako tražite servis zidnog gasnog kotla ili gasnog bojlera u Požarevcu, pozovite Fluid 012.</p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="service">
-              <span class="service__n">03</span>
-              <div>
-                <h3>Servis elektro kotlova</h3>
-                <p>Održavamo i popravljamo elektro kotlove: grejače, automatiku, cirkulaciju i zaštitne elemente, da grejanje ostane pouzdano.</p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="service">
-              <span class="service__n">04</span>
-              <div>
-                <h3>Redovno održavanje</h3>
-                <p>Pregled pre sezone smanjuje zastoj usred zime. Proveravamo sagorevanje, zaptivenost, pritisak i rad cirkulacione pumpe, u skladu sa preporukom proizvođača.</p>
-              </div>
-            </article>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="annual" id="redovan-servis" aria-labelledby="servis-naslov">
-      <div class="annual__inner">
-        <p class="annual__badge">Pametna preventiva</p>
-        <h2 id="servis-naslov">Godišnji servis kotla — Pripremite se za sezonu na vreme</h2>
-        <p class="annual__lead">Ne čekajte prvi minus i prebukirane termine u novembru. Redovnim servisom produžavate vek kotla i smanjujete potrošnju gasa.</p>
-        <div class="season">
-          <article class="season__card season__card--best">
-            <p class="season__flag">Preporučeno</p>
-            <div class="season__head">
-              <span class="season__icon season__icon--sun" aria-hidden="true">☀️</span>
-              <div>
-                <h3>Servis van sezone</h3>
-                <p class="season__when season__when--good">Maj – septembar</p>
-              </div>
-            </div>
-            <ul class="season__list">
-              <li><span aria-hidden="true">✓</span><span><strong>Slobodni termini.</strong> Izbor termina po vašoj želji, bez čekanja.</span></li>
-              <li><span aria-hidden="true">✓</span><span><strong>Niža potrošnja.</strong> Očišćen kotao dočekuje zimu sa punom efikasnošću.</span></li>
-              <li><span aria-hidden="true">✓</span><span><strong>Bez stresa.</strong> Znate da će dom biti topao na prvi hladan dan.</span></li>
-            </ul>
-            <a class="season__cta" href="#prijava-kvara">Zakažite letnji servis →</a>
-          </article>
-          <article class="season__card">
-            <div class="season__head">
-              <span class="season__icon season__icon--snow" aria-hidden="true">❄️</span>
-              <div>
-                <h3>Čekanje grejne sezone</h3>
-                <p class="season__when season__when--busy">Oktobar – decembar</p>
-              </div>
-            </div>
-            <ul class="season__list">
-              <li><span aria-hidden="true">✕</span><span><strong>Velike gužve.</strong> Popunjeni kapaciteti i čekanje na slobodan termin.</span></li>
-              <li><span aria-hidden="true">✕</span><span><strong>Rizik od zastoja.</strong> Kvar na neservisanom kotlu baš kada je najhladnije.</span></li>
-              <li><span aria-hidden="true">✕</span><span><strong>Veći račun za gas.</strong> Naslage kamenca i čađi povećavaju potrošnju do 15%.</span></li>
-            </ul>
-            <p class="season__note">I u sezoni izlazimo na teren po redosledu prijava, ali preporučujemo zakazivanje unapred.</p>
-          </article>
-        </div>
-        <div class="annual__scope">
-          <h3>Šta sve obuhvata kompletna provera i redovan servis?</h3>
-          <ul class="scope">
-            <li><strong>1. Gorionik i komora</strong> Hemijsko i mehaničko čišćenje primarnog razmenjivača i gorionika.</li>
-            <li><strong>2. Ekspanziona posuda</strong> Kontrola i dopuna pritiska u ekspanzionoj posudi.</li>
-            <li><strong>3. Elektronika i senzori</strong> Provera sigurnosnih ventila, sondi i termostatske regulacije.</li>
-            <li><strong>4. Analiza sagorevanja</strong> Podešavanje odnosa gasa i vazduha za optimalan rad i uštedu.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
     <section class="band" aria-labelledby="delovi-naslov">
       <img src="images/rezervni-delovi-grejanje.jpg" width="1152" height="864" alt="Krupni plan bakarnih cevi, ventila i manometra na grejnoj instalaciji" loading="lazy" decoding="async">
       <div class="band__shade" aria-hidden="true"></div>
@@ -621,6 +521,57 @@
       </div>
     </section>
 
+    <section class="section services" id="usluge" aria-labelledby="usluge-naslov">
+      <p class="watermark" aria-hidden="true">012</p>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Usluge</p>
+            <h2 id="usluge-naslov">Ugradnja, održavanje i servis</h2>
+          </div>
+          <p>Delatnost radnje je instalacija i servisiranje grejnih sistema, gasnih i elektro kotlova. Termin se dogovara telefonom.</p>
+        </div>
+        <ol class="service-list">
+          <li>
+            <article class="service">
+              <span class="service__n">01</span>
+              <div>
+                <h3>Ugradnja grejnih sistema</h3>
+                <p>Postavljamo gasne i elektro kotlove i povezujemo ih na kućnu instalaciju. Dogovaramo izlazak, pripremamo priključke i puštamo uređaj u rad.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="service">
+              <span class="service__n">02</span>
+              <div>
+                <h3>Servis gasnih kotlova</h3>
+                <p>Kada kotao ne greje, gubi pritisak ili javlja grešku, pregledamo ga, čistimo, podešavamo i menjamo deo kada je to potrebno. Ako tražite servis zidnog gasnog kotla ili gasnog bojlera u Požarevcu, pozovite Fluid 012.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="service">
+              <span class="service__n">03</span>
+              <div>
+                <h3>Servis elektro kotlova</h3>
+                <p>Održavamo i popravljamo elektro kotlove: grejače, automatiku, cirkulaciju i zaštitne elemente, da grejanje ostane pouzdano.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="service">
+              <span class="service__n">04</span>
+              <div>
+                <h3>Redovno održavanje</h3>
+                <p>Pregled pre sezone smanjuje zastoj usred zime. Proveravamo sagorevanje, zaptivenost, pritisak i rad cirkulacione pumpe, u skladu sa preporukom proizvođača.</p>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
     <section class="section about" id="o-nama" aria-labelledby="o-nama-naslov">
       <div class="wrap about__grid">
         <div class="about__copy">
@@ -645,6 +596,7 @@
     </section>
 
     <section class="section faq" id="pitanja" aria-labelledby="pitanja-naslov">
+      <p class="watermark" aria-hidden="true">fluid 012</p>
       <div class="wrap">
         <p class="eyebrow">Pitanja</p>
         <h2 id="pitanja-naslov">Česta pitanja</h2>
@@ -695,6 +647,56 @@
         </div>
       </div>
     </section>
+    <section class="annual" id="redovan-servis" aria-labelledby="servis-naslov">
+      <div class="annual__inner">
+        <p class="annual__badge">Pametna preventiva</p>
+        <h2 id="servis-naslov">Godišnji servis kotla — Pripremite se za sezonu na vreme</h2>
+        <p class="annual__lead">Ne čekajte prvi minus i prebukirane termine u novembru. Redovnim servisom produžavate vek kotla i smanjujete potrošnju gasa.</p>
+        <div class="season">
+          <article class="season__card season__card--best">
+            <p class="season__flag">Preporučeno</p>
+            <div class="season__head">
+              <span class="season__icon season__icon--sun" aria-hidden="true">☀️</span>
+              <div>
+                <h3>Servis van sezone</h3>
+                <p class="season__when season__when--good">Maj – septembar</p>
+              </div>
+            </div>
+            <ul class="season__list">
+              <li><span aria-hidden="true">✓</span><span><strong>Slobodni termini.</strong> Izbor termina po vašoj želji, bez čekanja.</span></li>
+              <li><span aria-hidden="true">✓</span><span><strong>Niža potrošnja.</strong> Očišćen kotao dočekuje zimu sa punom efikasnošću.</span></li>
+              <li><span aria-hidden="true">✓</span><span><strong>Bez stresa.</strong> Znate da će dom biti topao na prvi hladan dan.</span></li>
+            </ul>
+            <a class="season__cta" href="#prijava-kvara">Zakažite letnji servis →</a>
+          </article>
+          <article class="season__card">
+            <div class="season__head">
+              <span class="season__icon season__icon--snow" aria-hidden="true">❄️</span>
+              <div>
+                <h3>Čekanje grejne sezone</h3>
+                <p class="season__when season__when--busy">Oktobar – decembar</p>
+              </div>
+            </div>
+            <ul class="season__list">
+              <li><span aria-hidden="true">✕</span><span><strong>Velike gužve.</strong> Popunjeni kapaciteti i čekanje na slobodan termin.</span></li>
+              <li><span aria-hidden="true">✕</span><span><strong>Rizik od zastoja.</strong> Kvar na neservisanom kotlu baš kada je najhladnije.</span></li>
+              <li><span aria-hidden="true">✕</span><span><strong>Veći račun za gas.</strong> Naslage kamenca i čađi povećavaju potrošnju do 15%.</span></li>
+            </ul>
+            <p class="season__note">I u sezoni izlazimo na teren po redosledu prijava, ali preporučujemo zakazivanje unapred.</p>
+          </article>
+        </div>
+        <div class="annual__scope">
+          <h3>Šta sve obuhvata kompletna provera i redovan servis?</h3>
+          <ul class="scope">
+            <li><strong>1. Gorionik i komora</strong> Hemijsko i mehaničko čišćenje primarnog razmenjivača i gorionika.</li>
+            <li><strong>2. Ekspanziona posuda</strong> Kontrola i dopuna pritiska u ekspanzionoj posudi.</li>
+            <li><strong>3. Elektronika i senzori</strong> Provera sigurnosnih ventila, sondi i termostatske regulacije.</li>
+            <li><strong>4. Analiza sagorevanja</strong> Podešavanje odnosa gasa i vazduha za optimalan rad i uštedu.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">

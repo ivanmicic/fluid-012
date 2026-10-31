@@ -77,6 +77,10 @@ Naslov stranice je „Servis gasnih kotlova Požarevac | Fluid 012”. Opis u pr
 
 Ova verzija ide na GitHub, grana `main`, repozitorijum `ivanmicic/fluid-012`. Push sam ne osvežava https://fluid-012.vercel.app jer GitHub i Vercel projekat nisu povezani. `plan.md` ostaje van javnog sajta.
 
+### 2026-10-31
+
+Raspored odeljaka, na srpskom i engleskom: prvi ekran, brza dijagnostika, WhatsApp prijava, brendovi sa trakom poverenja (traka originalnih delova ostaje uvod u brendove), zatim postojeći odeljci usluge, o radnji, česta pitanja i kontakt, pa godišnji servis pred kraj, i na kraju podnožje sa fiksnom trakom na uskom ekranu. Gornji meni prati taj red: Saveti, Prijava, Brendovi, Usluge, O nama, Kontakt, Servis. Sadržaj odeljaka nije menjan. U hitnoj traci prvog ekrana pitanje i broj više nisu razmaknuti na dva kraja: stoje jedno uz drugo, spojeni kratkom crvenom crtom. U praznini desno od naslova „Česta pitanja” stoji isti bled watermark kao „012” kod usluga, sa natpisom „fluid 012”. Sačuvan ugalj, na njega se vraćamo: tamno `#3a4046`, malo svetlije `#454c53`, podnožje `#2e343a`, sjaj `#5c656c`, kartice `#32383e`. Vatra je odbačena. Plava i maslinasta su probane. Trenutna proba je po uzoru na Lovable šablon „Ignite”: skoro crna topla podloga, narandžasti sjaj na vrhu prvog ekrana i fina kvadratna mreža od 56 px preko svih tamnih sekcija, zaključana za ekran da se poklapa između sekcija. Prvi ekran ima bogatiji narandžasti snop sa vrha na sredini, a ceo sadržaj prvog ekrana je centriran. Usluge više nisu bež krem: svetla toplo-siva podloga sa istom mrežom u tamnim linijama. U kontaktu su naslov, adresa, oznake, brojevi i link za mapu u narandžastoj sa naslovne. Provereno na širinama iPhone ekrana od 320 do 430 px: ništa ne izlazi van ekrana, meni radi, polja forme imaju 17 px pa iPhone ne zumira. Za Safari na telefonu mreža se ne vezuje za ekran (iOS to ne podržava), donja traka ima -webkit- zamućenje, a veličina slova se ne menja pri okretanju telefona. Krem i dužina preliva ostaju. Još nije objavljeno na Vercel.
+
 ## Otvoreno
 
 - Domen, pa zamena `SITE_DOMAIN` u `sitemap.xml` i `robots.txt`, i povezivanje tog domena na Vercel projekat
